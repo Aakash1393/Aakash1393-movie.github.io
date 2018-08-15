@@ -1,0 +1,887 @@
+/*body{
+  background-color: #E5F4E3; 
+  font-family: 'Roboto', sans-serif;
+}*/
+
+#output {
+  margin-top:1%;
+  border-radius:25px;
+  font-family:'Lobster';
+  margin: 15px;
+  padding: 5px;
+
+}
+
+.poster{
+	margin-left:370px;
+}
+
+.imdbrating{
+
+	margin-left:972px;
+	margin-top:-540px;	
+
+}
+
+.imdbvotes{
+margin-left:1070px;
+font-size:10px;
+
+}
+
+.tomatoes{
+	margin-left:-985px;
+	margin-top:-45px;
+}
+
+.text{
+	margin-left: 95px;
+}
+@media screen and (max-width:1466px)
+{
+	.poster{
+	  margin-left:550px;
+	}
+}
+
+
+@media screen and (max-width:1434px)
+{
+	.poster{
+	  margin-left:520px;
+	}
+}
+
+@media screen and (max-width:1364px)
+{
+	.poster{
+	  margin-left:490px;
+	}
+}
+
+@media screen and (max-width:1329px)
+{
+	.poster{
+	  margin-left:460px;
+	}
+}
+
+@media screen and (max-width:1253px)
+{
+	.poster{
+	  margin-left:430px;
+	}
+}
+
+@media screen and (max-width:1198px)
+{
+	.poster{
+	  margin-left:400px;
+	}
+
+	.imdbrating{
+
+		margin-left:960px;
+	}
+
+	.imdbvotes{
+	  margin-left:1040px;
+	}
+
+	.tomatoes{
+		margin-left:-965px;
+	
+	}
+}
+
+@media screen and (max-width:1174px)
+{
+	.poster{
+	  margin-left:400px;
+	}
+
+	.imdbrating{
+
+		margin-left:930px;
+	}
+
+	.imdbvotes{
+	  margin-left:1010px;
+	}
+
+	.tomatoes{
+		margin-left:-935px;
+	
+	}
+}
+
+@media screen and (max-width:1144px)
+{
+	.poster{
+	  margin-left:360px;
+	}
+
+	.imdbrating{
+
+		margin-left:900px;
+	}
+
+	.imdbvotes{
+	  margin-left:980px;
+	}
+
+	.tomatoes{
+		margin-left:-905px;
+	
+	}
+}
+
+@media screen and (max-width:1114px)
+{
+	.poster{
+	  margin-left:340px;
+	}
+
+	.imdbrating{
+
+		margin-left:870px;
+	}
+
+	.imdbvotes{
+	  margin-left:950px;
+	}
+
+	.tomatoes{
+		margin-left:-870px;
+	
+	}
+}
+
+@media screen and (max-width:1079px)
+{
+	.poster{
+	  margin-left:320px;
+	}
+
+	.imdbrating{
+
+		margin-left:840px;
+	}
+
+	.imdbvotes{
+	  margin-left:920px;
+	}
+
+	.tomatoes{
+		margin-left:-840px;
+	
+	}
+}
+
+@media screen and (max-width:1044px)
+{
+	.poster{
+	  margin-left:300px;
+	}
+
+	.imdbrating{
+
+		margin-left:810px;
+	}
+
+	.imdbvotes{
+	  margin-left:890px;
+	}
+
+	.tomatoes{
+		margin-left:-820px;
+	
+	}
+}
+
+@media screen and (max-width:1030px)
+{
+	.poster{
+	  margin-left:305px;
+	}
+
+	.imdbrating{
+
+		margin-left:780px;
+	}
+
+	.imdbvotes{
+	  margin-left:850px;
+	}
+
+	.tomatoes{
+		margin-left:-790px;
+	
+	}
+}
+
+@media screen and (max-width:1003px)
+{
+	.poster{
+	  margin-left:290px;
+	}
+
+	.imdbrating{
+
+		margin-left:750px;
+	}
+
+	.imdbvotes{
+	  margin-left:810px;
+	}
+
+	.tomatoes{
+		margin-left:-760px;
+	
+	}
+}
+
+@media screen and (max-width:971px)
+{
+	.poster{
+	  margin-left:280px;
+	}
+
+	.imdbrating{
+
+		margin-left:720px;
+	}
+
+	.imdbvotes{
+	  margin-left:790px;
+	}
+
+	.tomatoes{
+		margin-left:-730px;
+	
+	}
+}
+
+@media screen and (max-width:941px)
+{
+	.poster{
+	  margin-left:270px;
+	}
+
+	.imdbrating{
+
+		margin-left:690px;
+	}
+
+	.imdbvotes{
+	  margin-left:770px;
+	}
+
+	.tomatoes{
+		margin-left:-700px;
+	
+	}
+}
+
+@media screen and (max-width:911px)
+{
+	.poster{
+	  margin-left:260px;
+	}
+
+	.imdbrating{
+
+		margin-left:660px;
+	}
+
+	.imdbvotes{
+	  margin-left:750px;
+	}
+
+	.tomatoes{
+		margin-left:-670px;
+	
+	}
+}
+
+@media screen and (max-width:884px)
+{
+	.poster{
+	  margin-left:250px;
+	}
+
+	.imdbrating{
+
+		margin-left:630px;
+	}
+
+	.imdbvotes{
+	  margin-left:730px;
+	}
+
+	.tomatoes{
+		margin-left:-640px;
+	
+	}
+}
+
+@media screen and (max-width:857px)
+{
+	.poster{
+	  margin-left:240px;
+	}
+
+	.imdbrating{
+
+		margin-left:600px;
+	}
+
+	.imdbvotes{
+	  margin-left:710px;
+	}
+
+	.tomatoes{
+		margin-left:-610px;
+	
+	}
+}
+
+@media screen and (max-width:830px)
+{
+	.poster{
+	  margin-left:230px;
+	}
+
+	.imdbrating{
+
+		margin-left:570px;
+	}
+
+	.imdbvotes{
+	  margin-left:680px;
+	}
+
+	.tomatoes{
+		margin-left:-590px;
+	
+	}
+}
+
+@media screen and (max-width:798px)
+{
+	.poster{
+	  margin-left:220px;
+	}
+
+	.imdbrating{
+
+		margin-left:540px;
+	}
+
+	.imdbvotes{
+	  margin-left:650px;
+	}
+
+	.tomatoes{
+		margin-left:-570px;
+	
+	}
+}
+
+@media screen and (max-width:781px)
+{
+	.poster{
+	  margin-left:210px;
+	}
+
+	.imdbrating{
+
+		margin-left:510px;
+	}
+
+	.imdbvotes{
+	  margin-left:600px;
+	}
+
+	.tomatoes{
+		margin-left:-550px;
+	
+	}
+}
+
+@media screen and (max-width:757px)
+{
+	.poster{
+	  margin-left:200px;
+	}
+
+	.imdbrating{
+
+		margin-left:480px;
+	}
+
+	.imdbvotes{
+	  margin-left:550px;
+	}
+
+	.tomatoes{
+		margin-left:-530px;
+	
+	}
+}
+
+@media screen and (max-width:743px)
+{
+	.poster{
+	  margin-left:190px;
+	}
+
+	.imdbrating{
+
+		margin-left:480px;
+	}
+
+	.imdbvotes{
+	  margin-left:550px;
+	}
+
+	.tomatoes{
+		margin-left:-510px;
+	
+	}
+}
+
+@media screen and (max-width:724px)
+{
+	.poster{
+	  margin-left:180px;
+	}
+
+	.imdbrating{
+
+		margin-left:480px;
+	}
+
+	.imdbvotes{
+	  margin-left:550px;
+	}
+
+	.tomatoes{
+		margin-left:-490px;
+	
+	}
+}
+
+@media screen and (max-width:697px)
+{
+	.poster{
+	  margin-left:170px;
+	}
+
+	.imdbrating{
+
+		margin-left:475px;
+	}
+
+	.imdbvotes{
+	  margin-left:530px;
+	}
+
+	.tomatoes{
+		margin-left:-470px;
+	
+	}
+}
+
+@media screen and (max-width:686px)
+{
+	.poster{
+	  margin-left:160px;
+	}
+
+	.imdbrating{
+
+		margin-left:470px;
+	}
+
+	.imdbvotes{
+	  margin-left:510px;
+	}
+
+	.tomatoes{
+		margin-left:-450px;
+	
+	}
+}
+
+@media screen and (max-width:664px)
+{
+	.poster{
+	  margin-left:150px;
+	}
+
+	.imdbrating{
+
+		margin-left:465px;
+	}
+
+	.imdbvotes{
+	  margin-left:530px;
+	}
+
+	.tomatoes{
+		margin-left:-430px;
+	
+	}
+}
+
+@media screen and (max-width:661px)
+{
+	.poster{
+	  margin-left:140px;
+	  margin-top:10px;
+	}
+
+	.imdbrating{
+
+		margin-left:460px;
+	}
+
+	.imdbvotes{
+	  margin-left:520px;
+	}
+
+	.tomatoes{
+		margin-left:-410px;
+	
+	}
+}
+
+@media screen and (max-width:644px)
+{
+	.poster{
+	  margin-left:130px;
+	  margin-top:10px;
+	}
+
+	.imdbrating{
+
+		margin-left:455px;
+	}
+
+	.imdbvotes{
+	  margin-left:510px;
+	}
+
+	.tomatoes{
+		margin-left:-390px;
+	
+	}
+}
+
+@media screen and (max-width:631px)
+{
+	.poster{
+	  margin-left:130px;
+	  margin-top:10px;
+	}
+
+	.imdbrating{
+
+		margin-left:450px;
+	}
+
+	.imdbvotes{
+	  margin-left:500px;
+	}
+
+	.tomatoes{
+		margin-left:-370px;
+	
+	}
+}
+
+@media screen and (max-width:628px)
+{
+	.poster{
+	  margin-left:110px;
+	  margin-top:14px;
+	}
+
+	.imdbrating{
+
+		margin-left:420px;
+	}
+
+	.imdbvotes{
+	  margin-left:470px;
+	}
+
+	.tomatoes{
+		margin-left:-350px;
+	
+	}
+}
+
+@media screen and (max-width:596px)
+{
+	.poster{
+	  margin-left:80px;
+	  margin-top:14px;
+	}
+
+	.imdbrating{
+
+		margin-left:380px;
+	}
+
+	.imdbvotes{
+	  margin-left:430px;
+	}
+
+	.tomatoes{
+		margin-left:-320px;
+	
+	}
+}
+
+@media screen and (max-width:558px)
+{
+	.poster{
+	  margin-left:60px;
+	  margin-top:18px;
+	}
+
+	.imdbrating{
+
+		margin-left:330px;
+	}
+
+	.imdbvotes{
+	  margin-left:390px;
+	}
+
+	.tomatoes{
+		margin-left:-290px;
+	
+	}
+}
+
+@media screen and (max-width:507px)
+{
+	.poster{
+	  margin-left:40px;
+	  margin-top:18px;
+	}
+
+	.imdbrating{
+
+		margin-left:280px;
+	}
+
+	.imdbvotes{
+	  margin-left:350px;
+	}
+
+	.tomatoes{
+		margin-left:-260px;
+		margin-top:2px;
+	
+	}
+
+	.text{
+		margin-left:80px;
+	}
+
+	.detail{
+		margin-left:55px;
+	}
+	.something{
+		margin-left:70px;
+		margin-top:50px;
+	}
+}
+
+
+@media screen and (max-width:470px)
+{
+	.poster{
+	  margin-left:30px;
+	  margin-top:18px;
+	}
+
+	.imdbrating{
+
+		margin-left:230px;
+		margin-top:-555px;
+	}
+
+	.imdbvotes{
+	  margin-left:310px;
+	}
+
+	.tomatoes{
+		margin-left:-230px;
+		margin-top:2px;
+	
+	}
+}
+
+@media screen and (max-width:440px)
+{
+	.poster{
+	  margin-left:30px;
+	  margin-top:18px;
+	}
+
+	.imdbrating{
+
+		margin-left:200px;
+		margin-top:-555px;
+	}
+
+	.imdbvotes{
+	  margin-left:300px;
+	}
+
+	.tomatoes{
+		margin-left:-200px;
+		margin-top:2px;
+	
+	}
+}
+
+
+@media screen and (max-width:416px)
+{
+	.poster{
+	  margin-left:20px;
+	  margin-top:18px;
+	}
+
+	.imdbrating{
+
+		margin-left:170px;
+		margin-top:-555px;
+	}
+
+	.imdbvotes{
+	  margin-left:310px;
+	}
+
+	.tomatoes{
+		margin-left:-170px;
+		margin-top:2px;
+	
+	}
+}
+
+@media screen and (max-width:421px)
+{
+	.poster{
+	  margin-left:10px;
+	  margin-top:20px;
+	}
+
+	.imdbrating{
+
+		margin-left:140px;
+		margin-top:-552px;
+	}
+
+	.imdbvotes{
+	  margin-left:210px;
+	}
+
+	.tomatoes{
+		margin-left:-140px;
+		margin-top:1px;
+	
+	}
+}
+
+@media screen and (max-width:387px)
+{
+	.poster{
+	  margin-left:7px;
+	  margin-top:20px;
+	}
+
+	.imdbrating{
+
+		margin-left:140px;
+		margin-top:-552px;
+	}
+
+	.imdbvotes{
+	  margin-left:210px;
+	}
+
+	.tomatoes{
+		margin-left:-140px;
+		margin-top:1px;
+	
+	}
+}
+
+@media screen and (max-width:692px)
+{
+	.text{
+		margin-left:90px;
+	}
+
+	.detail{
+		margin-left:95px;
+	}
+	.something{
+		margin-left:80px;
+		margin-top:50px;
+	}
+}
+
+@media screen and (max-width:680px)
+{
+	.text{
+		margin-left:80px;
+		/*margin-top:-10px;*/
+	}
+
+	.detail{
+		margin-left:-10px;
+		/*margin-top:-10px;*/
+	}
+	.something{
+		margin-left:70px;
+		margin-top:50px;
+	}
+}
+
+@media screen and (max-width:565px)
+{
+	.text{
+		margin-left:90px;
+	}
+
+	.detail{
+		margin-left:-20px;
+	}
+	.something{
+		margin-left:55px;
+		margin-top:100px;
+	}
+}
+
+@media screen and (max-width:563px)
+{
+	.text{
+		margin-left:90px;
+	}
+
+	.detail{
+		margin-left:1px;
+	}
+	.something{
+		margin-left:-155px;
+		margin-top:100px;
+	}
+}
