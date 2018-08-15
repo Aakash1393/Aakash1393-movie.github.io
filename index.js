@@ -130,7 +130,9 @@ $("#search").on("click",function()
             $(".awards").empty();
             $(".production").empty();
             $(".rating").empty();
-            $(".votes").empty();  
+            $(".votes").empty(); 
+            $(".boxOffice").empty();
+            $(".country").empty();   
             $(".rotten").empty();    
           }
     
