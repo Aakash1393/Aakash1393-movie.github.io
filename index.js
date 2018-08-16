@@ -40,7 +40,7 @@ $("#search").on("click",function()
                 dataType: 'json',
                 async: true, 
                 
-                  url:'http://www.omdbapi.com/?t='+searchTerm+'&y'+yearTerm+'&apikey=7d78520b',
+                  url:'https://www.omdbapi.com/?t='+searchTerm+'&y'+yearTerm+'&apikey=7d78520b',
                   success:function(data)
                   {
 
@@ -115,7 +115,7 @@ $("#search").on("click",function()
                           dataType: 'json',
                           async: true, 
                            
-                            url:'http://www.omdbapi.com/?i='+searchTerm+'&y'+yearTerm+'&apikey=7d78520b',
+                            url:'https://www.omdbapi.com/?i='+searchTerm+'&y'+yearTerm+'&apikey=7d78520b',
                             success:function(data)
                             {
                               console.log(data);
